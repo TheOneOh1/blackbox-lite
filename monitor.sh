@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Combined Prometheus Monitor Script for Websites and VM Hosts
-# Outputs metrics in Prometheus format for textfile_collector
-
 # Configuration
 TEXTFILE_PATH="/opt/node_exporter/textfile_collector/combined_monitor.prom"
 TEMP_FILE="/tmp/combined_monitor_temp.prom"
