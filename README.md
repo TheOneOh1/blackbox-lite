@@ -112,10 +112,8 @@ Or for more frequent monitoring (every minute):
    curl http://localhost:9100/metrics | grep vm_host_
 ```
   
-## Examples
-
-### Example Output
-  ![[screenshot101.png]]
+## Examples Output
+  ![screenshot101.png](screenshot101.png)
 
 ## Contributing
 
