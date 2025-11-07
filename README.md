@@ -115,7 +115,7 @@ Or for more frequent monitoring (every minute):
 ## Examples
 
 ### Example Output
-  ![[carbon.png]]
+  ![[screenshot101.png]]
 
 ## Contributing
 
