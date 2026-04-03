@@ -1,0 +1,27 @@
+# ==============================================
+# Blackbox Lite - Configuration File
+# ==============================================
+# Usage: ./monitor.sh --config config.yaml
+
+# Path where Prometheus metrics are written
+textfile_path: "/opt/node_exporter/textfile_collector/combined_monitor.prom"
+
+# Websites to monitor (HTTP/HTTPS endpoints)
+websites:
+  - "https://www.corp-analytics-portal.com/"
+  - "https://beta.project-nebula.io/login"
+  - "http://192.168.50.11/metrics"
+  - "https://support.global-solutions.org/knowledgebase"
+  - "https://dev.api-gateway-v2.net/v1/status"
+
+# VM hosts to monitor (hostnames or IP addresses)
+vm_hosts:
+  - "vm-prod-app03"
+  - "dev-db-master01"
+  - "edge-node-sfo1"
+  - "test-web-proxy-b"
+  - "lab-jumper-007"
+
+# Parallel execution settings
+parallel:
+  max_jobs: 5
